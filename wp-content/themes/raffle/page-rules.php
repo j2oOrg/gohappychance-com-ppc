@@ -111,10 +111,10 @@ get_header();
     <div class="rules-container">
       <p class="rules-eyebrow">Official rules</p>
       <h1 class="rules-title">Rules &amp; Regulations</h1>
-      <p class="rules-sub">These are the governing terms for the licensed gohappychance raffle. Operator / Licensee: Gohappychance Foundation. gohappychance is the campaign/brand name only. Participation is limited to individuals 18+ physically located in Alberta at time of purchase.</p>
+      <p class="rules-sub">These are the governing terms for the licensed gohappychance raffle. The draw runs under AGLC Raffle Licence #662983 and is operated by Gohappychance Foundation. gohappychance is the campaign/brand name only. Participation is limited to individuals 18+ physically located in Alberta at time of purchase.</p>
       <div class="rules-licence-bar">
-        <div class="licence-chip"><i class="fa-solid fa-certificate"></i>AGLC Raffle Licence #662983</div>
-        <div class="licence-chip"><i class="fa-solid fa-ticket"></i>995 tickets • $10 each • 50/50 prize</div>
+        <div class="licence-chip"><i class="fa-solid fa-certificate"></i>AGLC Raffle Licence #662983 — operated by Gohappychance Foundation</div>
+        <div class="licence-chip"><i class="fa-solid fa-ticket"></i>995 tickets • $10 each • Licensed 50/50 prize pool</div>
         <div class="licence-chip"><i class="fa-solid fa-calendar-day"></i>Draw: March 30, 2026 at 7:00 PM MT • Fort Edmonton Park</div>
         <div class="licence-chip"><i class="fa-solid fa-scale-balanced"></i>Licence term: January 15, 2026 – March 30, 2026</div>
       </div>
@@ -130,7 +130,7 @@ get_header();
     <div class="rules-container rules-layout">
       <div class="rules-card">
         <h2>Key obligations</h2>
-        <p>This raffle is conducted under AGLC Raffle Licence #662983. The licensee, Gohappychance Foundation, is responsible for ensuring the draw is fair, transparent, and compliant with Alberta regulations.</p>
+        <p>AGLC Raffle Licence #662983 authorizes this draw. The Gohappychance Foundation oversees fairness, transparency, and adherence to Alberta regulations.</p>
         <div class="rules-actions">
           <a class="rules-btn" href="<?php echo esc_url( home_url('/faq') ); ?>"><i class="fa-solid fa-book-open"></i> Read FAQ</a>
           <a class="rules-btn secondary" href="<?php echo esc_url( home_url('/#contact') ); ?>"><i class="fa-solid fa-envelope"></i> Contact support</a>
@@ -155,7 +155,7 @@ get_header();
 
       <article class="rules-card rules-qa">
         <h3>Prize</h3>
-        <p>One 50/50 cash prize: 50% of total ticket sales. No substitutions or cash alternatives beyond the 50/50 amount.</p>
+        <p>One licensed 50/50 prize: winner receives 50% of total ticket revenue. No substitutions or alternatives beyond the 50/50 amount.</p>
       </article>
 
       <article class="rules-card rules-qa">

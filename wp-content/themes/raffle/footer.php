@@ -15,12 +15,11 @@
 
     <div class="footer-note-w0e3" style="text-align:center;">
       <p class="section-sub-p0c6" style="margin:0;">
-        Gohappychance Foundation<br>
-        AGLC Raffle Licence #662983<br>
-        Issued by Alberta Gaming, Liquor &amp; Cannabis
+        Gohappychance Foundation — operator of this licensed 50/50 raffle<br>
+        AGLC Raffle Licence #662983 • Alberta Gaming, Liquor &amp; Cannabis oversight
       </p>
       <p class="section-sub-p0c6" style="margin:0.5rem 0 0;">
-        Draw Date: February 25, 2026<br>
+        Draw Date: March 30, 2026<br>
         Prize: 50% of ticket sales
       </p>
       <p class="section-sub-p0c6" style="margin:0.5rem 0 0;">
@@ -31,9 +30,8 @@
         Marketing services provided by DigiBox Ltd (authorized agent).
       </p>
       <p class="section-sub-p0c6" style="margin:0.5rem 0 0;">
-        Responsible Participation: This raffle is conducted in accordance with Alberta law. If participation in games of chance becomes a concern, support is available.<br>
-        Alberta Gambling Helpline: 1-866-332-2322 • <a href="https://www.albertahealthservices.ca" target="_blank" rel="noopener noreferrer" class="link-accent-m8q5">www.albertahealthservices.ca</a><br>
-        Participation is limited to individuals 18+ located in Alberta.
+        Licensing &amp; participation rules: 18+ and physically in Alberta. Conducted under AGLC oversight. Support resources are available if participation becomes a concern.<br>
+        Alberta Gambling Helpline: 1-866-332-2322 • <a href="https://www.albertahealthservices.ca" target="_blank" rel="noopener noreferrer" class="link-accent-m8q5">www.albertahealthservices.ca</a>
       </p>
       <p class="section-sub-p0c6" style="margin:0.5rem 0 0;">
         <a href="<?php echo esc_url( $privacy_link ); ?>" class="link-accent-m8q5">Privacy Policy</a>

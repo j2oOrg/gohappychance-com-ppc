@@ -3,7 +3,7 @@
 <head>
   <meta charset="<?php bloginfo('charset'); ?>">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="gohappychance — Licensed raffle with cash prizes, responsible play, and clear rules.">
+  <meta name="description" content="gohappychance — Community-focused 50/50 raffle with transparent draws, responsible play, and clear rules.">
   <link rel="icon" href="<?php echo esc_url( home_url('/favicon.ico') ); ?>">
   <link rel="apple-touch-icon" sizes="180x180" href="<?php echo esc_url( home_url('/apple-touch-icon.png') ); ?>">
   <?php wp_head(); ?>

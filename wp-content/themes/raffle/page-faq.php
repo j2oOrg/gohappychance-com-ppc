@@ -76,9 +76,10 @@ get_header();
 .licence-chip i{color:var(--faq-accent);}
 .faq-grid{
   display:grid;
-  grid-template-columns:1.1fr 0.9fr;
+  grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
   gap:1.2rem;
-  margin:2rem 0 1.2rem;
+  margin:2rem auto 1.2rem;
+  max-width:1100px;
 }
 .faq-card{
   background:var(--faq-panel);

@@ -42,6 +42,7 @@ get_header();
 .licence-chip{display:flex; gap:0.45rem; align-items:flex-start; color:var(--rules-text); font-weight:700;}
 .licence-chip i{color:var(--rules-accent);}
 .rules-layout{display:grid; grid-template-columns:1.05fr 0.95fr; gap:1.1rem; margin:2rem 0 1.4rem;}
+.rules-layout{max-width:1100px; margin:2rem auto 1.4rem;}
 .rules-card{
   background:var(--rules-panel);
   border:1px solid var(--rules-border);

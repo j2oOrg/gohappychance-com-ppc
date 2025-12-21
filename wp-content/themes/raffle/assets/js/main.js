@@ -113,8 +113,11 @@ document.addEventListener("DOMContentLoaded", () => {
   const hoursEl = document.getElementById("countdownHours");
   const minutesEl = document.getElementById("countdownMinutes");
   const secondsEl = document.getElementById("countdownSeconds");
+  const progressEl = document.getElementById("countdownProgress");
   if (daysEl && hoursEl && minutesEl && secondsEl) {
-    const target = new Date("February 25, 2026 00:00:00").getTime();
+    const target = new Date("March 30, 2026 19:00:00").getTime();
+    const start = new Date("January 15, 2026 00:00:00").getTime();
+    const totalSpan = Math.max(target - start, 1);
     const updateCountdown = () => {
       const now = Date.now();
       const diff = Math.max(target - now, 0);
@@ -126,6 +129,11 @@ document.addEventListener("DOMContentLoaded", () => {
       hoursEl.textContent = String(hours).padStart(2, "0");
       minutesEl.textContent = String(minutes).padStart(2, "0");
       secondsEl.textContent = String(seconds).padStart(2, "0");
+      if (progressEl) {
+        const elapsed = Math.min(Math.max(totalSpan - diff, 0), totalSpan);
+        const pct = Math.round((elapsed / totalSpan) * 100);
+        progressEl.style.width = `${pct}%`;
+      }
     };
     updateCountdown();
     setInterval(updateCountdown, 1000);

@@ -8,35 +8,52 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
 
 <main>
   <section class="hero" id="home">
-    <div class="container hero-grid">
+    <div class="container hero-grid hero-grid--balanced">
       <div class="hero-copy">
-        <p class="eyebrow">Licensed charitable raffle</p>
+        <p class="eyebrow">Licensed community raffle</p>
         <h1 class="hero-title">gohappychance Association Foundation 50/50 Raffle</h1>
-        <div class="hero-prize-stack">
-          <span class="hero-prize">$3,780 Current Licensed Draw Amount</span>
-          <span class="hero-prize-sub">(50% of ticket sales to date, per AGLC Raffle Licence #662961)</span>
+        <p class="hero-sub">Community-first raffle operated under AGLC Raffle Licence #662961. Issued by Alberta Gaming, Liquor &amp; Cannabis. Winner receives 50% of ticket sales for this licensed draw.</p>
+
+        <div class="community-band">
+          <span class="pill accent"><i class="fa-solid fa-certificate"></i> AGLC Licence #662961</span>
+          <span class="pill"><i class="fa-solid fa-ticket"></i> 995 tickets • $10 each</span>
+          <span class="pill"><i class="fa-solid fa-calendar-day"></i> Draw: Mar 30, 2026 @ 7:00 PM MT</span>
         </div>
-        <p class="hero-sub">Licensed charitable raffle operated under AGLC Raffle Licence #662961. Issued by Alberta Gaming, Liquor &amp; Cannabis.</p>
-        <p class="hero-sub">Winner receives 50% of ticket sales for this licensed draw.</p>
-        <div class="countdown-card">
-          <p class="countdown-title">Draw date: February 25, 2026</p>
-          <div class="countdown" id="countdown">
-            <div class="slot"><span class="value" id="countdownDays">27</span><small>Days</small></div>
-            <div class="slot"><span class="value" id="countdownHours">00</span><small>Hours</small></div>
-            <div class="slot"><span class="value" id="countdownMinutes">00</span><small>Minutes</small></div>
-            <div class="slot"><span class="value" id="countdownSeconds">00</span><small>Seconds</small></div>
+
+        <div class="countdown-panel">
+          <div class="countdown-top">
+            <p class="countdown-title">Countdown to the next community draw</p>
+            <p class="countdown-date">March 30, 2026 at 7:00 PM MT • AGLC Raffle Licence #662961 (Operator: gohappychance Association Foundation)</p>
           </div>
+          <div class="countdown-grid" id="countdown">
+            <div class="count-chip">
+              <span class="value" id="countdownDays">--</span>
+              <small>Days</small>
+            </div>
+            <div class="count-chip">
+              <span class="value" id="countdownHours">--</span>
+              <small>Hours</small>
+            </div>
+            <div class="count-chip">
+              <span class="value" id="countdownMinutes">--</span>
+              <small>Minutes</small>
+            </div>
+            <div class="count-chip">
+              <span class="value" id="countdownSeconds">--</span>
+              <small>Seconds</small>
+            </div>
+          </div>
+          <div class="count-progress" aria-hidden="true">
+            <div class="count-progress-fill" id="countdownProgress"></div>
+          </div>
+          <p class="countdown-note">We post milestones every Friday and share pot updates in the community board below.</p>
         </div>
+
         <div class="hero-cta">
-          <a href="#" class="btn primary" data-signup-btn>Join Now &amp; Start Winning</a>
-          <a href="#how" class="btn ghost">How it works</a>
+          <a href="#" class="btn primary" data-signup-btn>Join the draw</a>
+          <a href="#community" class="btn ghost">See the community board</a>
         </div>
         <p class="hero-sub" style="font-size:0.95rem; margin-top:0.4rem;">Must be 18+ and physically located in Alberta at time of purchase.</p>
-        <div class="badges">
-          <span class="pill accent"><i class="fa-solid fa-certificate"></i> AGLC Licence #662961</span>
-          <span class="pill"><i class="fa-solid fa-ticket"></i> 995 tickets total</span>
-          <span class="pill"><i class="fa-solid fa-calendar-day"></i> Draw: Feb 25, 2026</span>
-        </div>
         <p class="hero-sub" style="margin-top:0.8rem;">Operator / Licensee: gohappychance Association Foundation • Authority: Alberta Gaming, Liquor &amp; Cannabis (AGLC). gohappychance is the campaign/brand name only and is not the operator.</p>
       </div>
 
@@ -44,6 +61,47 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
         <div class="halo"></div>
         <img src="<?php echo esc_url( $hero_image ); ?>" alt="gohappychance Raffle hero">
         <span class="hero-label"><i class="fa-solid fa-circle-info"></i> Real cash prizes</span>
+        <div class="hero-card">
+          <p class="hero-card-title">Community highlights</p>
+          <ul class="hero-card-list">
+            <li><i class="fa-solid fa-heart"></i> 420+ neighbours following the weekly pot updates</li>
+            <li><i class="fa-solid fa-people-group"></i> Volunteer team moderates draws &amp; posts results</li>
+            <li><i class="fa-solid fa-scale-balanced"></i> Compliance anchored: AGLC Raffle Licence #662961</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="community-hub" id="community">
+    <div class="container">
+      <div class="section-head">
+        <p class="section-eyebrow">Community board</p>
+        <h2 class="section-title">Pot updates, neighbours, and licence info in one place</h2>
+        <p class="section-sub">A gentle feed that keeps everyone aligned on the licensed draw, the pot, and how funds circle back to the community.</p>
+      </div>
+      <div class="community-grid">
+        <article class="community-card">
+          <p class="tag">Pot update</p>
+          <h3>$3,780 current pot</h3>
+          <p>50% to the winner, 50% to local programs. Updated weekly leading up to the March 30, 2026 draw.</p>
+          <p class="muted-line"><i class="fa-solid fa-clock"></i> Next refresh: Friday 2 PM MT</p>
+        </article>
+        <article class="community-card">
+          <p class="tag">Neighbours</p>
+          <h3>Shout-outs &amp; stewardship</h3>
+          <ul class="community-list">
+            <li><i class="fa-solid fa-leaf"></i> 18 volunteers hosting Q&amp;A each Wednesday</li>
+            <li><i class="fa-solid fa-hands-holding-circle"></i> 4 community captains verifying draw steps</li>
+            <li><i class="fa-solid fa-bullhorn"></i> Weekly recap posted after pot updates</li>
+          </ul>
+        </article>
+        <article class="community-card licence-card">
+          <p class="tag">Licence &amp; rules</p>
+          <p>Operator / Licensee: gohappychance Association Foundation • AGLC Raffle Licence #662961 • Authority: Alberta Gaming, Liquor &amp; Cannabis (AGLC).</p>
+          <p>995 tickets • $10 each • Draw: March 30, 2026 at 7:00 PM MT • One winner receives 50% of sales.</p>
+          <a class="btn ghost" href="#responsible">See compliance details</a>
+        </article>
       </div>
     </div>
   </section>
@@ -51,20 +109,20 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
   <section class="packages" id="packages">
     <div class="container">
       <div class="section-head">
-        <p class="section-eyebrow">Grand prize</p>
-        <h2 class="section-title">Limited tickets. One epic $3,780 prize.</h2>
-        <p class="section-sub">A vivid, licensed raffle experience —built to stand out and easy to enter.</p>
+        <p class="section-eyebrow">Tickets &amp; pot snapshot</p>
+        <h2 class="section-title">Limited tickets. One licensed 50/50 prize.</h2>
+        <p class="section-sub">Simple to enter, transparent to follow, and grounded in the AGLC licence.</p>
       </div>
 
       <div class="grand-prize-wrap">
         <article class="grand-card">
-          <div class="info-block" style="background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.12); border-radius:12px; padding:1rem; margin-bottom:1rem;">
-            <p class="section-sub" style="margin:0 0 0.35rem; text-transform:uppercase; letter-spacing:0.08em; font-size:0.9rem;">Ticket Details (As Licensed)</p>
-            <ul style="margin:0; padding-left:1.1rem; color:#dbe2ee; line-height:1.5;">
+          <div class="info-block">
+            <p class="section-sub info-heading">Ticket details (as licensed)</p>
+            <ul class="info-list">
               <li>Ticket price: $10.00 per ticket</li>
               <li>Total tickets available: 995</li>
               <li>Prize: 50% of total ticket sales</li>
-              <li>Draw date: February 25, 2026</li>
+              <li>Draw date: March 30, 2026</li>
               <li>Draw location: Fort Edmonton Park, Edmonton</li>
             </ul>
           </div>
@@ -74,7 +132,7 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
           <p class="pitch">Think flagship gear, premium apparel, and field-ready accessories curated for a single lucky winner.</p>
           <div class="cta-stack">
             <a href="#" class="btn fun" data-signup-btn><i class="fa-solid fa-bolt"></i> Get Tickets Now</a>
-            <span class="pill accent"><i class="fa-solid fa-clock"></i> Draw: Feb 25, 2026</span>
+            <span class="pill accent"><i class="fa-solid fa-clock"></i> Draw: Mar 30, 2026</span>
           </div>
         </article>
 
@@ -96,7 +154,7 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
           </div>
           <div class="stat-box">
             <p class="label">Draw date</p>
-            <p class="num">Feb 25</p>
+            <p class="num">Mar 30</p>
             <p class="hint">2026 • Licensed &amp; posted</p>
           </div>
         </div>
@@ -119,7 +177,7 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
         </article>
         <article class="package-card">
           <div class="package-name">2. Wait for draw</div>
-          <p class="package-note">Official draw on February 25, 2026.</p>
+          <p class="package-note">Official draw on March 30, 2026.</p>
         </article>
         <article class="package-card">
           <div class="package-name">3. Win the prize</div>
@@ -137,8 +195,8 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
     <div class="container">
       <div class="section-head">
         <p class="section-eyebrow">Your impact</p>
-        <h2 class="section-title">Tickets that support conservation</h2>
-        <p class="section-sub">Every purchase echoes theraffle spirit—backing wildlife and outdoor heritage.</p>
+        <h2 class="section-title">Community-centred support</h2>
+        <p class="section-sub">Every purchase backs wildlife and outdoor heritage, with community voices guiding how funds are shared.</p>
       </div>
       <div class="package-grid">
         <article class="package-card">
@@ -147,7 +205,7 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
           </p>
           <a href="<?php echo esc_url( home_url('/faq') ); ?>" class="btn primary">Ask about the mission</a>
         </article>
-        <article class="package-card" style="background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.12);">
+        <article class="package-card package-card-light">
           <p class="section-eyebrow" style="margin-bottom:0.35rem;">Operator</p>
           <p class="section-sub" style="margin:0;">Operated by:<br>
           gohappychance Association Foundation<br>
@@ -165,7 +223,7 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
       <div class="section-head">
         <p class="section-eyebrow">Winners</p>
         <h2 class="section-title">Winners announced after the draw</h2>
-        <p class="section-sub">Check back after February 25, 2026 for the official winner announcement.</p>
+        <p class="section-sub">Check back after March 30, 2026 for the official winner announcement.</p>
       </div>
       <div class="package-grid">
         <article class="package-card">
@@ -187,7 +245,7 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
         <div class="rg-card">
           <div class="rg-icon"><i class="fa-solid fa-shield-halved"></i></div>
           <h3>Licence &amp; limits</h3>
-          <p>Operator / Licensee: gohappychance Association Foundation • AGLC Raffle Licence #662961 • 995 tickets • $10 each • Draw: Feb 25, 2026 • One $3,780 winner.</p>
+          <p>Operator / Licensee: gohappychance Association Foundation • AGLC Raffle Licence #662961 • 995 tickets • $10 each • Draw: Mar 30, 2026 • One $3,780 winner.</p>
           <span class="rg-badge-pill"><i class="fa-solid fa-scale-balanced"></i> Posted odds: max 1 in 995</span>
         </div>
         <div class="rg-card">

@@ -4,6 +4,12 @@
  */
 get_header();
 $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
+
+// Inline the front-page stylesheet so the hero/community view is self contained.
+$inline_css_path = get_theme_file_path('/assets/css/front-page.css');
+if (file_exists($inline_css_path)) {
+    echo '<style id="gohappychance-inline-front-page-css">' . file_get_contents($inline_css_path) . '</style>';
+}
 ?>
 
 <main>

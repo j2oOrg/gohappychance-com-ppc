@@ -168,12 +168,12 @@ get_header();
       <h1 class="faq-title">Frequently Asked Questions</h1>
       <p class="faq-sub">Clarity on the licensed gohappychance raffle—tickets, eligibility, draw details, and how we keep everything compliant.</p>
       <div class="faq-licence-bar">
-        <div class="licence-chip"><i class="fa-solid fa-certificate"></i>AGLC Raffle Licence #662961</div>
+        <div class="licence-chip"><i class="fa-solid fa-certificate"></i>AGLC Raffle Licence #662983</div>
         <div class="licence-chip"><i class="fa-solid fa-ticket"></i>995 tickets • $10 each • 18+ in Alberta</div>
         <div class="licence-chip"><i class="fa-solid fa-calendar-day"></i>Draw: March 30, 2026 at 7:00 PM MT • Fort Edmonton Park</div>
-        <div class="licence-chip"><i class="fa-solid fa-scale-balanced"></i>Operator / Licensee: gohappychance Association Foundation</div>
+        <div class="licence-chip"><i class="fa-solid fa-scale-balanced"></i>Operator / Licensee: Gohappychance Foundation</div>
       </div>
-      <p class="faq-sub">gohappychance is the campaign/brand name only and is not the operator; all raffle operations are run by the gohappychance Association Foundation under AGLC oversight.</p>
+      <p class="faq-sub">gohappychance is the campaign/brand name only and is not the operator; all raffle operations are run by the Gohappychance Foundation under AGLC oversight.</p>
       <div class="faq-pill-group">
         <span class="faq-pill"><i class="fa-solid fa-circle-info"></i> Licensed draw</span>
         <span class="faq-pill"><i class="fa-solid fa-people-group"></i> Community-first</span>

@@ -17,11 +17,11 @@ if (file_exists($inline_css_path)) {
     <div class="container hero-grid hero-grid--balanced">
       <div class="hero-copy">
         <p class="eyebrow">Licensed community raffle</p>
-        <h1 class="hero-title">gohappychance Association Foundation 50/50 Raffle</h1>
-        <p class="hero-sub">Community-first raffle operated under AGLC Raffle Licence #662961. Issued by Alberta Gaming, Liquor &amp; Cannabis. Winner receives 50% of ticket sales for this licensed draw.</p>
+        <h1 class="hero-title">Gohappychance Foundation 50/50 Raffle</h1>
+        <p class="hero-sub">Community-first raffle operated under AGLC Raffle Licence #662983. Issued by Alberta Gaming, Liquor &amp; Cannabis. Winner receives 50% of ticket sales for this licensed draw.</p>
 
         <div class="community-band">
-          <span class="pill accent"><i class="fa-solid fa-certificate"></i> AGLC Licence #662961</span>
+          <span class="pill accent"><i class="fa-solid fa-certificate"></i> AGLC Licence #662983</span>
           <span class="pill"><i class="fa-solid fa-ticket"></i> 995 tickets • $10 each</span>
           <span class="pill"><i class="fa-solid fa-calendar-day"></i> Draw: Mar 30, 2026 @ 7:00 PM MT</span>
         </div>
@@ -29,7 +29,7 @@ if (file_exists($inline_css_path)) {
         <div class="countdown-panel">
           <div class="countdown-top">
             <p class="countdown-title">Countdown to the next community draw</p>
-            <p class="countdown-date">March 30, 2026 at 7:00 PM MT • AGLC Raffle Licence #662961 (Operator: gohappychance Association Foundation)</p>
+            <p class="countdown-date">March 30, 2026 at 7:00 PM MT • AGLC Raffle Licence #662983 (Operator: Gohappychance Foundation)</p>
           </div>
           <div class="countdown-grid" id="countdown">
             <div class="count-chip">
@@ -60,7 +60,7 @@ if (file_exists($inline_css_path)) {
           <a href="#community" class="btn ghost">See the community board</a>
         </div>
         <p class="hero-sub" style="font-size:0.95rem; margin-top:0.4rem;">Must be 18+ and physically located in Alberta at time of purchase.</p>
-        <p class="hero-sub" style="margin-top:0.8rem;">Operator / Licensee: gohappychance Association Foundation • Authority: Alberta Gaming, Liquor &amp; Cannabis (AGLC). gohappychance is the campaign/brand name only and is not the operator.</p>
+        <p class="hero-sub" style="margin-top:0.8rem;">Operator / Licensee: Gohappychance Foundation • Authority: Alberta Gaming, Liquor &amp; Cannabis (AGLC). gohappychance is the campaign/brand name only and is not the operator.</p>
       </div>
 
       <div class="hero-visual">
@@ -72,7 +72,7 @@ if (file_exists($inline_css_path)) {
           <ul class="hero-card-list">
             <li><i class="fa-solid fa-heart"></i> 420+ neighbours following the weekly pot updates</li>
             <li><i class="fa-solid fa-people-group"></i> Volunteer team moderates draws &amp; posts results</li>
-            <li><i class="fa-solid fa-scale-balanced"></i> Compliance anchored: AGLC Raffle Licence #662961</li>
+            <li><i class="fa-solid fa-scale-balanced"></i> Compliance anchored: AGLC Raffle Licence #662983</li>
           </ul>
         </div>
       </div>
@@ -104,7 +104,7 @@ if (file_exists($inline_css_path)) {
         </article>
         <article class="community-card licence-card">
           <p class="tag">Licence &amp; rules</p>
-          <p>Operator / Licensee: gohappychance Association Foundation • AGLC Raffle Licence #662961 • Authority: Alberta Gaming, Liquor &amp; Cannabis (AGLC).</p>
+          <p>Operator / Licensee: Gohappychance Foundation • AGLC Raffle Licence #662983 • Authority: Alberta Gaming, Liquor &amp; Cannabis (AGLC).</p>
           <p>995 tickets • $10 each • Draw: March 30, 2026 at 7:00 PM MT • One winner receives 50% of sales.</p>
           <a class="btn ghost" href="#responsible">See compliance details</a>
         </article>
@@ -134,7 +134,7 @@ if (file_exists($inline_css_path)) {
           </div>
           <h3>Prize overview</h3>
           <p class="value">$3,780 value</p>
-          <p class="sub">Only 995 tickets • $10 each • AGLC Raffle Licence #662961</p>
+          <p class="sub">Only 995 tickets • $10 each • AGLC Raffle Licence #662983</p>
           <p class="pitch">Think flagship gear, premium apparel, and field-ready accessories curated for a single lucky winner.</p>
           <div class="cta-stack">
             <a href="#" class="btn fun" data-signup-btn><i class="fa-solid fa-bolt"></i> Get Tickets Now</a>
@@ -214,7 +214,7 @@ if (file_exists($inline_css_path)) {
         <article class="package-card package-card-light">
           <p class="section-eyebrow" style="margin-bottom:0.35rem;">Operator</p>
           <p class="section-sub" style="margin:0;">Operated by:<br>
-          gohappychance Association Foundation<br>
+          Gohappychance Foundation<br>
           9111-39 Avenue, Edmonton, AB T6E5Y2<br>
           Licensed charitable organization in Alberta</p>
           <p class="section-sub" style="margin:0.6rem 0 0;">Advertising and marketing services provided by:<br>
@@ -244,14 +244,14 @@ if (file_exists($inline_css_path)) {
       <div class="section-head">
         <p class="section-eyebrow">Compliance</p>
         <h2 class="section-title">Licensed &amp; regulated</h2>
-        <p class="section-sub">Operator / Licensee: gohappychance Association Foundation • AGLC Raffle Licence #662961 • Authority: Alberta Gaming, Liquor &amp; Cannabis (AGLC). gohappychance is the campaign/brand name only.</p>
+        <p class="section-sub">Operator / Licensee: Gohappychance Foundation • AGLC Raffle Licence #662983 • Authority: Alberta Gaming, Liquor &amp; Cannabis (AGLC). gohappychance is the campaign/brand name only.</p>
       </div>
 
       <div class="rg-grid">
         <div class="rg-card">
           <div class="rg-icon"><i class="fa-solid fa-shield-halved"></i></div>
           <h3>Licence &amp; limits</h3>
-          <p>Operator / Licensee: gohappychance Association Foundation • AGLC Raffle Licence #662961 • 995 tickets • $10 each • Draw: Mar 30, 2026 • One $3,780 winner.</p>
+          <p>Operator / Licensee: Gohappychance Foundation • AGLC Raffle Licence #662983 • 995 tickets • $10 each • Draw: Mar 30, 2026 • One $3,780 winner.</p>
           <span class="rg-badge-pill"><i class="fa-solid fa-scale-balanced"></i> Posted odds: max 1 in 995</span>
         </div>
         <div class="rg-card">
@@ -301,7 +301,7 @@ if (file_exists($inline_css_path)) {
 <div class="sticky-ribbon">
   <div class="item"><i class="fa-solid fa-circle-exclamation"></i> 18+</div>
   <div class="item"><i class="fa-solid fa-shield"></i> Responsible Gaming</div>
-  <div class="item"><i class="fa-solid fa-ticket"></i> AGLC Licence #662961</div>
+  <div class="item"><i class="fa-solid fa-ticket"></i> AGLC Licence #662983</div>
   <div class="item"><i class="fa-solid fa-bolt"></i> Fast Checkout</div>
 </div>
 
@@ -325,7 +325,7 @@ if (file_exists($inline_css_path)) {
   <div class="container">
     <div class="badge"><span class="age-number">18+</span></div>
     <div class="badge"><i class="fa-solid fa-shield-check"></i> Responsible Gaming</div>
-    <div class="badge"><i class="fa-solid fa-certificate"></i> AGLC Licence #662961</div>
+    <div class="badge"><i class="fa-solid fa-certificate"></i> AGLC Licence #662983</div>
   </div>
 </div>
 

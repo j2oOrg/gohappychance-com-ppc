@@ -111,15 +111,15 @@ get_header();
     <div class="rules-container">
       <p class="rules-eyebrow">Official rules</p>
       <h1 class="rules-title">Rules &amp; Regulations</h1>
-      <p class="rules-sub">These are the governing terms for the licensed gohappychance raffle. Operator / Licensee: gohappychance Association Foundation. gohappychance is the campaign/brand name only. Participation is limited to individuals 18+ physically located in Alberta at time of purchase.</p>
+      <p class="rules-sub">These are the governing terms for the licensed gohappychance raffle. Operator / Licensee: Gohappychance Foundation. gohappychance is the campaign/brand name only. Participation is limited to individuals 18+ physically located in Alberta at time of purchase.</p>
       <div class="rules-licence-bar">
-        <div class="licence-chip"><i class="fa-solid fa-certificate"></i>AGLC Raffle Licence #662961</div>
+        <div class="licence-chip"><i class="fa-solid fa-certificate"></i>AGLC Raffle Licence #662983</div>
         <div class="licence-chip"><i class="fa-solid fa-ticket"></i>995 tickets • $10 each • 50/50 prize</div>
         <div class="licence-chip"><i class="fa-solid fa-calendar-day"></i>Draw: March 30, 2026 at 7:00 PM MT • Fort Edmonton Park</div>
         <div class="licence-chip"><i class="fa-solid fa-scale-balanced"></i>Licence term: January 15, 2026 – March 30, 2026</div>
       </div>
       <div class="rules-chip-group">
-        <span class="rules-chip"><i class="fa-solid fa-circle-info"></i> Operator: gohappychance Association Foundation</span>
+        <span class="rules-chip"><i class="fa-solid fa-circle-info"></i> Operator: Gohappychance Foundation</span>
         <span class="rules-chip"><i class="fa-solid fa-location-dot"></i> Alberta only • 18+</span>
         <span class="rules-chip"><i class="fa-solid fa-shield-halved"></i> Conducted under AGLC oversight</span>
       </div>
@@ -130,7 +130,7 @@ get_header();
     <div class="rules-container rules-layout">
       <div class="rules-card">
         <h2>Key obligations</h2>
-        <p>This raffle is conducted under AGLC Raffle Licence #662961. The licensee, gohappychance Association Foundation, is responsible for ensuring the draw is fair, transparent, and compliant with Alberta regulations.</p>
+        <p>This raffle is conducted under AGLC Raffle Licence #662983. The licensee, Gohappychance Foundation, is responsible for ensuring the draw is fair, transparent, and compliant with Alberta regulations.</p>
         <div class="rules-actions">
           <a class="rules-btn" href="<?php echo esc_url( home_url('/faq') ); ?>"><i class="fa-solid fa-book-open"></i> Read FAQ</a>
           <a class="rules-btn secondary" href="<?php echo esc_url( home_url('/#contact') ); ?>"><i class="fa-solid fa-envelope"></i> Contact support</a>

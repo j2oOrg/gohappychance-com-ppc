@@ -10,7 +10,7 @@ get_header();
     <div class="shell-wrap-z4m2">
       <p class="eyebrow-t8k9">Privacy Policy</p>
       <h1 class="section-title-m3y2" style="font-size:2.4rem; margin-bottom:0.25rem;">How we protect your information</h1>
-      <p class="section-sub-p0c6">gohappychance Association Foundation — gohappychance Raffle 2025 (AGLC Raffle Licence #662961)</p>
+      <p class="section-sub-p0c6">Gohappychance Foundation — gohappychance Raffle 2025 (AGLC Raffle Licence #662983)</p>
       <div class="policy-meta-c7m2">
         <span class="pill accent">Last Updated: September 2025</span>
         <span class="pill">Effective Date: September 26, 2025</span>
@@ -21,7 +21,7 @@ get_header();
   <section class="policy-body-q3d4">
     <div class="shell-wrap-z4m2 policy-grid-h5s8">
       <article class="policy-card-n4c1">
-        <p class="section-sub-p0c6">The gohappychance Association Foundation ("we", "us", or "our") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your personal information when you participate in the gohappychance Raffle (AGLC Raffle Licence #662961). gohappychance is the campaign/brand name only and is not the operator.</p>
+        <p class="section-sub-p0c6">The Gohappychance Foundation ("we", "us", or "our") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your personal information when you participate in the gohappychance Raffle (AGLC Raffle Licence #662983). gohappychance is the campaign/brand name only and is not the operator.</p>
 
         <h2>1. Information We Collect</h2>
         <h3>Personal Information</h3>
@@ -127,9 +127,9 @@ get_header();
 
         <h2>12. Contact Us</h2>
         <div class="policy-highlight-e2b7">
-            <p><strong>gohappychance Association Foundation</strong><br>
+            <p><strong>Gohappychance Foundation</strong><br>
           Operator / Licensee for gohappychance Raffle 2025<br>
-          AGLC Raffle Licence #662961</p>
+          AGLC Raffle Licence #662983</p>
           <p><strong>Website:</strong> <a href="<?php echo esc_url( home_url('/') ); ?>">gohappychance.com</a><br>
           <strong>Email:</strong> <a href="mailto:support@gohappychance.com">support@gohappychance.com</a></p>
           <p>Please visit our <a href="<?php echo esc_url( home_url('/#contact') ); ?>">Contact section</a> for more ways to reach us.</p>

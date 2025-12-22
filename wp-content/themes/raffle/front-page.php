@@ -3,7 +3,7 @@
  * Front page template pulling the landing content from the static index.html.
  */
 get_header();
-$hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
+$hero_image = get_theme_file_uri('/assets/images/img_1.png');
 
 // Inline the front-page stylesheet so the hero/community view is self contained.
 $inline_css_path = get_theme_file_path('/assets/css/front-page.css');
@@ -17,8 +17,8 @@ if (file_exists($inline_css_path)) {
     <div class="container hero-grid hero-grid--balanced">
       <div class="hero-copy">
         <p class="eyebrow">Licensed community raffle</p>
-        <h1 class="hero-title">Gohappychance Foundation 50/50 Raffle</h1>
-        <p class="hero-sub">Community-first raffle, authorized under AGLC Raffle Licence #662983 and operated by Gohappychance Foundation. Alberta Gaming, Liquor &amp; Cannabis provides oversight. Winner receives 50% of ticket sales.</p>
+        <h1 class="hero-title">Gohappychance Foundation Raffle</h1>
+        <p class="hero-sub">Community-first raffle, authorized under AGLC Raffle Licence #662983 and operated by Gohappychance Foundation. Alberta Gaming, Liquor &amp; Cannabis provides oversight. Winner receives a Samsung 65” Q60D QLED Smart TV.</p>
 
         <div class="community-band">
           <span class="pill accent"><i class="fa-solid fa-certificate"></i> AGLC Licence #662983</span>
@@ -65,8 +65,8 @@ if (file_exists($inline_css_path)) {
 
       <div class="hero-visual">
         <div class="halo"></div>
-        <img src="<?php echo esc_url( $hero_image ); ?>" alt="gohappychance Raffle hero">
-        <span class="hero-label"><i class="fa-solid fa-circle-info"></i> Licensed prize pool (50% of ticket sales)</span>
+        <img src="<?php echo esc_url( $hero_image ); ?>" alt="Samsung 65” Q60D QLED Smart TV prize">
+        <span class="hero-label"><i class="fa-solid fa-circle-info"></i> Licensed prize: Samsung 65” Q60D QLED Smart TV</span>
         <div class="hero-card">
           <p class="hero-card-title">Community highlights</p>
           <ul class="hero-card-list">
@@ -89,9 +89,9 @@ if (file_exists($inline_css_path)) {
       <div class="community-grid">
         <article class="community-card">
           <p class="tag">Pot update</p>
-          <h3>$3,780 current pot</h3>
-          <p>50% to the winner, 50% to local programs. Updated weekly leading up to the March 30, 2026 draw.</p>
-          <p class="muted-line"><i class="fa-solid fa-clock"></i> Next refresh: Friday 2 PM MT</p>
+          <h3>Current licensed prize</h3>
+          <p>Samsung 65” Q60D QLED Smart TV awarded at the March 30, 2026 draw.</p>
+          <p class="muted-line"><i class="fa-solid fa-clock"></i> Posted updates weekly until draw day</p>
         </article>
         <article class="community-card">
           <p class="tag">Neighbours</p>
@@ -105,7 +105,7 @@ if (file_exists($inline_css_path)) {
         <article class="community-card licence-card">
           <p class="tag">Licence &amp; rules</p>
           <p>AGLC Raffle Licence #662983, operated by Gohappychance Foundation under Alberta Gaming, Liquor &amp; Cannabis oversight.</p>
-          <p>995 tickets • $10 each • Draw: March 30, 2026 at 7:00 PM MT • One winner receives 50% of sales.</p>
+          <p>995 tickets • $10 each • Draw: March 30, 2026 at 7:00 PM MT • Prize: Samsung 65” Q60D QLED Smart TV.</p>
           <a class="btn ghost" href="#responsible">See compliance details</a>
         </article>
       </div>
@@ -115,8 +115,8 @@ if (file_exists($inline_css_path)) {
   <section class="packages" id="packages">
     <div class="container">
       <div class="section-head">
-        <p class="section-eyebrow">Tickets &amp; pot snapshot</p>
-        <h2 class="section-title">Limited tickets. Licensed 50/50 prize pool.</h2>
+        <p class="section-eyebrow">Tickets &amp; prize snapshot</p>
+        <h2 class="section-title">Limited tickets. Licensed prize: Samsung 65” Q60D QLED Smart TV.</h2>
         <p class="section-sub">Simple to enter, transparent to follow, and grounded in the AGLC licence.</p>
       </div>
 
@@ -127,15 +127,15 @@ if (file_exists($inline_css_path)) {
             <ul class="info-list">
               <li>Ticket price: $10.00 per ticket</li>
               <li>Total tickets available: 995</li>
-              <li>Prize: 50% of total ticket sales</li>
+              <li>Prize: Samsung 65” Q60D QLED Smart TV</li>
               <li>Draw date: March 30, 2026</li>
               <li>Draw location: Fort Edmonton Park, Edmonton</li>
             </ul>
           </div>
           <h3>Prize overview</h3>
-          <p class="value">Projected: $3,780 (full sell-out)</p>
+          <p class="value">Samsung 65” Q60D QLED Smart TV</p>
           <p class="sub">Only 995 tickets • $10 each • AGLC Raffle Licence #662983</p>
-          <p class="pitch">Prize amount equals 50% of total ticket revenue. Final value is posted at the draw.</p>
+          <p class="pitch">One licensed prize awarded at the draw. Model: Samsung 65” Q60D QLED Smart TV.</p>
           <div class="cta-stack">
             <a href="#" class="btn fun" data-signup-btn><i class="fa-solid fa-bolt"></i> Enter Licensed Draw</a>
             <span class="pill accent"><i class="fa-solid fa-clock"></i> Draw: Mar 30, 2026</span>
@@ -156,7 +156,7 @@ if (file_exists($inline_css_path)) {
           <div class="stat-box">
             <p class="label">Winner count</p>
             <p class="num">1</p>
-            <p class="hint">One 50/50 payout</p>
+            <p class="hint">One Samsung 65” Q60D QLED Smart TV</p>
           </div>
           <div class="stat-box">
             <p class="label">Draw date</p>
@@ -186,8 +186,8 @@ if (file_exists($inline_css_path)) {
           <p class="package-note">Official draw on March 30, 2026.</p>
         </article>
         <article class="package-card">
-          <div class="package-name">3. Winner receives 50%</div>
-          <p class="package-note">One winner collects a prize equal to 50% of total ticket sales.</p>
+          <div class="package-name">3. Prize awarded</div>
+          <p class="package-note">One winner receives a Samsung 65” Q60D QLED Smart TV.</p>
         </article>
         <article class="package-card">
           <div class="package-name">4. Strengthen community</div>
@@ -202,12 +202,12 @@ if (file_exists($inline_css_path)) {
       <div class="section-head">
         <p class="section-eyebrow">About the foundation</p>
         <h2 class="section-title">Gohappychance Foundation is community-first</h2>
-        <p class="section-sub">We run a single licensed 50/50 draw to fund programs neighbours ask for: youth activities, safe public spaces, and community wellness initiatives.</p>
+        <p class="section-sub">We run a single licensed raffle to fund programs neighbours ask for: youth activities, safe public spaces, and community wellness initiatives.</p>
       </div>
       <div class="package-grid">
         <article class="package-card">
           <div class="package-name">Transparent &amp; regulated</div>
-          <p class="package-note">AGLC Raffle Licence #662983 • 995 tickets at $10 • One winner receives 50% of ticket revenue.</p>
+          <p class="package-note">AGLC Raffle Licence #662983 • 995 tickets at $10 • Prize: Samsung 65” Q60D QLED Smart TV.</p>
         </article>
         <article class="package-card">
           <div class="package-name">Community-guided funding</div>
@@ -281,7 +281,7 @@ if (file_exists($inline_css_path)) {
         <div class="rg-card">
           <div class="rg-icon"><i class="fa-solid fa-location-dot"></i></div>
           <h3>Participation rules</h3>
-          <p>18+ and physically in Alberta. Licensed draw under AGLC oversight. One winner receives 50% of ticket revenue.</p>
+        <p>18+ and physically in Alberta. Licensed draw under AGLC oversight. One winner receives a Samsung 65” Q60D QLED Smart TV.</p>
           <a class="rg-cta" href="https://www.albertahealthservices.ca" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i> Support resources</a>
         </div>
         <div class="rg-card">

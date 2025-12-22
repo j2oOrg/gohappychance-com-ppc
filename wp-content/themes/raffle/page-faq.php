@@ -187,7 +187,7 @@ get_header();
     <div class="faq-container faq-grid">
       <div class="faq-card">
         <h3>Quick snapshot</h3>
-        <p>One licensed 50/50 draw with 995 tickets at $10. Winner gets 50% of ticket sales; the rest fuels community programs curated by the Gohappychance Foundation—youth activities, neighbourhood improvements, and wellness initiatives. Draw happens March 30, 2026 at 7:00 PM MT, Fort Edmonton Park.</p>
+        <p>One licensed raffle with 995 tickets at $10. Prize: Samsung 65” Q60D QLED Smart TV. Draw happens March 30, 2026 at 7:00 PM MT, Fort Edmonton Park. Proceeds support community programs curated by the Gohappychance Foundation—youth activities, neighbourhood improvements, and wellness initiatives.</p>
       </div>
       <div class="faq-card faq-note">
         <p><strong>Need support?</strong> Email <a href="mailto:support@gohappychance.com" class="link-accent-m8q5">support@gohappychance.com</a> for ticket or rules questions, or visit the <a href="<?php echo esc_url( home_url('/rules') ); ?>">Rules</a> page for the full licence terms.</p>
@@ -221,7 +221,7 @@ get_header();
 
       <article class="faq-card faq-qa">
         <h3>What exactly is the prize?</h3>
-        <p>It’s a licensed 50/50 prize pool—one winner receives 50% of total ticket revenue. At full sell-out, that’s projected around $3,780 to the winner.</p>
+        <p>A licensed prize: Samsung 65” Q60D QLED Smart TV. One winner receives this TV at the March 30, 2026 draw.</p>
       </article>
 
       <article class="faq-card faq-qa">

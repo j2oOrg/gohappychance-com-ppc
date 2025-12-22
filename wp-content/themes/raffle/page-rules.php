@@ -114,7 +114,7 @@ get_header();
       <p class="rules-sub">These are the governing terms for the licensed gohappychance raffle. The draw runs under AGLC Raffle Licence #662983 and is operated by Gohappychance Foundation. gohappychance is the campaign/brand name only. Participation is limited to individuals 18+ physically located in Alberta at time of purchase.</p>
       <div class="rules-licence-bar">
         <div class="licence-chip"><i class="fa-solid fa-certificate"></i>AGLC Raffle Licence #662983 — operated by Gohappychance Foundation</div>
-        <div class="licence-chip"><i class="fa-solid fa-ticket"></i>995 tickets • $10 each • Licensed 50/50 prize pool</div>
+        <div class="licence-chip"><i class="fa-solid fa-ticket"></i>995 tickets • $10 each • Licensed prize: Samsung 65” Q60D QLED Smart TV</div>
         <div class="licence-chip"><i class="fa-solid fa-calendar-day"></i>Draw: March 30, 2026 at 7:00 PM MT • Fort Edmonton Park</div>
         <div class="licence-chip"><i class="fa-solid fa-scale-balanced"></i>Licence term: January 15, 2026 – March 30, 2026</div>
       </div>
@@ -138,7 +138,7 @@ get_header();
       </div>
 
       <div class="rules-card rules-note">
-        <p><strong>Quick facts:</strong> 995 tickets at $10 • One 50/50 winner • Draw on March 30, 2026 • Winner notified within 5 business days using purchase contact details; winner must respond within 30 days.</p>
+        <p><strong>Quick facts:</strong> 995 tickets at $10 • One winner receives a Samsung 65” Q60D QLED Smart TV • Draw on March 30, 2026 • Winner notified within 5 business days using purchase contact details; winner must respond within 30 days.</p>
       </div>
     </div>
 
@@ -155,7 +155,7 @@ get_header();
 
       <article class="rules-card rules-qa">
         <h3>Prize</h3>
-        <p>One licensed 50/50 prize: winner receives 50% of total ticket revenue. No substitutions or alternatives beyond the 50/50 amount.</p>
+        <p>One licensed prize: Samsung 65” Q60D QLED Smart TV. No substitutions or cash alternatives.</p>
       </article>
 
       <article class="rules-card rules-qa">

@@ -3,7 +3,7 @@
  * Front page template pulling the landing content from the static index.html.
  */
 get_header();
-$hero_image = home_url('/img_1.png'); // served from public/img_1.png
+$hero_image = get_theme_file_uri('/assets/images/img_1.png');
 
 // Inline the front-page stylesheet so the hero/community view is self contained.
 $inline_css_path = get_theme_file_path('/assets/css/front-page.css');
